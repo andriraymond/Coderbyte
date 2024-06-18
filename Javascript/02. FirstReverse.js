@@ -18,7 +18,10 @@ function FirstReverse(str) {
   var temp = "";
 
   //   Function to save original string to temporary string
-  for (let j = size - 1; j >= 0; j--) {
+  // for (let j = size - 1; j >= 0; j--) {
+  //   temp += str.at(j);
+  // }
+  for (let j = 0 ; j < size; j++) {
     temp += str.at(j);
   }
   return temp;
